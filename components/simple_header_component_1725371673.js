@@ -4,11 +4,11 @@ INSTRUCTION: Summary: The header component is a nav bar on top of the page -- it
 
 <template>
     <header id="header-section" class="w-full">
-        <nav id="nav-bar" class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
-            <div id="nav-container" class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+        <nav id="nav-bar" class="bg-gradient-to-r from-pink-500 to-purple-600 bg-opacity-70 backdrop-filter backdrop-blur-lg py-4 dark:bg-gray-900 shadow-lg">
+            <div id="nav-container" class="flex flex-wrap items-center justify-between max-w-screen-xl px-6 mx-auto">
                 <a id="logo-link" href="#" class="flex items-center">
-                    <img id="logo-image" src="./images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
-                    <span id="app-name" class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+                    <img id="logo-image" src="./images/logo.svg" class="h-8 mr-3 sm:h-10" alt="Landwind Logo" />
+                    <span id="app-name" class="self-center text-2xl font-bold text-white dark:text-white">
                         BlockchainExplorer
                     </span>
                 </a>
@@ -17,7 +17,7 @@ INSTRUCTION: Summary: The header component is a nav bar on top of the page -- it
                         id="collapse-button"
                         data-collapse-toggle="mobile-menu-2"
                         type="button"
-                        class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        class="inline-flex items-center p-2 ml-1 text-sm text-white rounded-lg lg:hidden hover:bg-pink-400 focus:outline-none focus:ring-2 focus:ring-pink-300 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                         aria-controls="mobile-menu-2"
                         aria-expanded="false"
                     >
@@ -55,7 +55,7 @@ INSTRUCTION: Summary: The header component is a nav bar on top of the page -- it
                         <li id="nav-item-home">
                             <a
                                 href="#"
-                                class="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0 dark:text-white"
+                                class="block py-2 pl-3 pr-4 text-white bg-pink-500 rounded-lg lg:bg-transparent lg:text-pink-200 lg:p-0 dark:text-white hover:bg-pink-400 lg:hover:bg-transparent lg:hover:text-white transition-colors duration-200"
                                 aria-current="page"
                             >
                                 Latest Block Information
@@ -64,7 +64,7 @@ INSTRUCTION: Summary: The header component is a nav bar on top of the page -- it
                         <li id="nav-item-1">
                             <a
                                 href="#"
-                                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                                class="block py-2 pl-3 pr-4 text-white rounded-lg hover:bg-pink-400 lg:hover:bg-transparent lg:hover:text-pink-200 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent transition-colors duration-200"
                             >
                                 Trending Cryptocurrencies
                             </a>
@@ -72,7 +72,7 @@ INSTRUCTION: Summary: The header component is a nav bar on top of the page -- it
                         <li id="nav-item-2">
                             <a
                                 href="#"
-                                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                                class="block py-2 pl-3 pr-4 text-white rounded-lg hover:bg-pink-400 lg:hover:bg-transparent lg:hover:text-pink-200 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent transition-colors duration-200"
                             >
                                 Recent Transactions
                             </a>
@@ -80,7 +80,7 @@ INSTRUCTION: Summary: The header component is a nav bar on top of the page -- it
                         <li id="nav-item-3">
                             <a
                                 href="#"
-                                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                                class="block py-2 pl-3 pr-4 text-white rounded-lg hover:bg-pink-400 lg:hover:bg-transparent lg:hover:text-pink-200 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent transition-colors duration-200"
                             >
                                 Blockchain News Feed
                             </a>
