@@ -12,5 +12,11 @@
         "content": "add a button that says Submit",
         "timestamp": "03092024135534",
         "message_id": "guest03092024135533"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Sure, I will add a button that says Submit.",
+        "timestamp": "03092024135534",
+        "message_id": "guest03092024135533"
     }
 ]

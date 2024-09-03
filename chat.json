@@ -15,5 +15,14 @@
         "component_file_name": "simple_header_component_1725371673",
         "div_id": "",
         "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Sure, I will add a button that says Submit.",
+        "message_id": "guest03092024135533",
+        "timestamp": "03092024135534",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
     }
 ]
